@@ -1,5 +1,4 @@
 
-
 **AWS/TERRAFORM TEST PROJECT** 
 
 This is a test project that creates a AWS VPC environment with an ALB and two EC2 instances running webservers (nginx & apache2) in us-east-1 (the cheapest AWS region)
@@ -45,5 +44,7 @@ If its everything ok, now you can run the code:
 In approximately 4 min you are be able to copy the terraform output called ***alb_dns_name*** and run it in your favourite browser. You'll see that there are 2 deferents webservers serving you the index page.
 
 When you have finish playing with it, don't forget to destroy the whole infrastructure with:
-`terraform destroy -auto-approve`
+
+    terraform destroy -auto-approve
+
 
