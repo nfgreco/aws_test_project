@@ -3,20 +3,20 @@
 
 This is a test project that creates a AWS VPC environment with an ALB and two EC2 instances running webservers (nginx & apache2) in us-east-1 (the cheapest AWS region)
 
-
 AWS VPC:
-2x Public subnets
-2x Private subnets
-2x EIP (to use in the NAT GWs)
-2x NAT GW (one per private subnet)
-1x IGW
-2x Security groups (private and public)
+ - 2x Public subnets
+ - 2x Private subnets
+ - 2x EIP (to use in the NAT GWs)
+ - 2x NAT GW (one per private subnet)
+ - 1x IGW
+ - 2x Security groups (private and public)
 
 AWS EC2:
-1x Public ALB
-1x Target group in the port 80 (http)
-1x EC2 t2.micro with apache2 
-1x EC2 t2.micro with nginx 
+
+ - 1x Public ALB
+ - 1x Target group in the port 80 (http)
+ - 1x EC2 t2.micro with apache2 
+ - 1x EC2 t2.micro with nginx 
 
 
 In order to use it first you need to configure yours AWS ACCESS AND SECRET KEY
