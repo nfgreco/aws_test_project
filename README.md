@@ -1,7 +1,7 @@
 
 **AWS/TERRAFORM TEST PROJECT** 
 
-This is a test project that creates a AWS VPC environment with an ALB and two EC2 instances running webservers (nginx & apache2) in us-east-1 (the cheapest AWS region)
+This is a test project that creates a AWS VPC environment with an ALB and two EC2 instances running webservers (nginx & apache2) in us-east-1 (if you want to change it, you can do it in the variable.tf file)
 
 AWS VPC:
  - 2x Public subnets
